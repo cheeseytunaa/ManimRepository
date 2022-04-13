@@ -7,7 +7,7 @@
 
 ## Features
 
-- I use the Manim library (*Community Edition), a community-maintained version of the original Manim by 3b1b.
+- I use the Manim library (*Community Edition*), a community-maintained version of the original Manim by 3b1b.
 - You can just use my code, download and render them, it's that simple. Or edit them for your own purposes.
 - Always be updated (at least weekly or monthly), a rich repository which contains a great number of Mathematics videos.
 - Each folder consists of one main code file (or more, depending on the main one), one .mp4 result file.
@@ -22,7 +22,7 @@ from viettex import *
 and to use, simply use the `VietTex()` class:
 ```
 test_viet_tex = VietTex(r"$\LaTeX$")
-test_viet_tex_2 = VietTex(r"ÀÁÂÃÈÉÊÌÍÒÓÔÕÙÚĂĐĨŨƠàáâãèéêìíòóôõùúăđĩũơƯĂẠẢẤẦẨẪẬẮẰẲẴẶẸẺẼỀỀỂ ưăạảấầẩẫậắằẳẵặẹẻẽềềểỄỆỈỊỌỎỐỒỔỖỘỚỜỞỠỢỤỦỨỪễệỉịọỏốồổỗộớờởỡợụủứừỬỮỰỲỴÝỶỸửữựỳỵỷỹ")
+test_viet_tex_2 = VietTex(r"ÀÁÂÃÈÉÊÌÍÒÓÔÕÙÚĂĐĨŨƠàáâãèéêìíòóôõùúăđĩũơƯĂẠẢẤẦẨẪẬẮẰẲẴẶẸẺẼỀỀỂưăạảấầẩẫậắằẳẵặẹẻẽềềểỄỆỈỊỌỎỐỒỔỖỘỚỜỞỠỢỤỦỨỪễệỉịọỏốồổỗộớờởỡợụủứừỬỮỰỲỴÝỶỸửữựỳỵỷỹ")
 ```
 
 ## How to render?
@@ -35,9 +35,9 @@ but I recommend this bad boi:
 manim <filename>.py (OPTIONAL_SCENE_INDEX_NUMBER/NAME) -pqh --fps 60
 ```
 ***NOTE:**
-    + `-p` means preview/auto play when done the rendering process.
-    + `-qh` stands for `--quality high`, means render in FullHD resolution `1920x1080`.
-    + `--fps 60` I think I don't have to explain this.
+    - `-p` means preview/auto play when done the rendering process.
+    - `-qh` stands for `--quality high`, means render in FullHD resolution `1920x1080`.
+    - `--fps 60` I think I don't have to explain this.
 
 ## Installation
 The easiest way of installing Manim and its dependencies is by using a package manager like `Chocolatey` or `Scoop`. If you are not afraid of editing your System’s PATH, a manual installation is also possible. In fact, if you already have an existing Python installation (3.7-3.10), it might be the easiest way to get everything up and running.
@@ -81,7 +81,7 @@ Scoop: first scoop bucket add r-bucket` #(https://github.com/cderv/r-bucket.git)
        scoop install tinytex
 ```
 alternative installation instructions can be found at their website. Keep in mind that you will have to manage the `LaTeX` packages installed on your system yourself via `tlmgr`. Therefore we only recommend this option if you know what you are doing.
-- The full list of LaTeX packages which Manim interacts with in some way (a subset might be sufficient for your particular application) are:
+- The full list of `LaTeX` packages which Manim interacts with in some way (a subset might be sufficient for your particular application) are:
 ```
 amsmath babel-english cbfonts-fd cm-super ctex doublestroke dvisvgm everysel
 fontspec frcursive fundus-calligra gnu-freefont jknapltx latex-bin
